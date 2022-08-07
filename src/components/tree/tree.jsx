@@ -11,11 +11,13 @@ const Tree = (props) => {
   };
 
   return (
-    <div style={{ height: 400 }}>
-      <SortableTree
-        treeData={this.state.treeData}
-        onChange={(treeData) => this.setState({ treeData })}
-      />
+    <div>
+      <div style={{ height: 400 }}>
+        <SortableTree
+          treeData={this.state.treeData}
+          onChange={(treeData) => this.setState({ treeData })}
+        />
+      </div>
     </div>
   );
 };
