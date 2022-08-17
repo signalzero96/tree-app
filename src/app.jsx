@@ -1,10 +1,11 @@
 import './app.module.css';
-import Mainpage from './routers/mainpage/mainpage';
+import MainPage from './routers/mainPage/mainPage';
+import styles from './app.module.css';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Mainpage />
+    <div className={styles.App}>
+      <MainPage />
     </div>
   );
 };

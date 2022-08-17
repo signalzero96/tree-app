@@ -1,11 +1,12 @@
 import React from 'react';
-import Tree from '../../components/tree/tree';
-import styles from '../css/mainpage.module.css';
+import FirstClass from '../../components/card/firstClass';
+import styles from './mainPage.module.css';
 
-const Mainpage = (props) => (
-  <div>
-    <Tree />
-  </div>
-);
-
-export default Mainpage;
+const MainPage = (props) => {
+  return (
+    <div className={styles.mainPage}>
+      <FirstClass />
+    </div>
+  );
+};
+export default MainPage;
